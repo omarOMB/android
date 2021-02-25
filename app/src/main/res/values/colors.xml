@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="RoundedGreenButton">#4CAF50</color>
+    <color name="RoundedRedButton">#BA4037</color>
+    <color name="RoundedBlueButton">#03A9F4</color>
+    <color name="LessRoundedGreenButton">#4CAF50</color>
+    <color name="LessRoundedOrangeButton">#FFECCB54</color>
+</resources>

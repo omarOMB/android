@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Profile"
+            android:fontFamily="@font/aldrich">
+            <menu>
+                <item
+                    android:id="@+id/nav_user"
+                    android:title="My account"
+                    android:fontFamily="@font/aldrich"
+                    android:icon="@drawable/user_icon"/>
+                <item
+                    android:id="@+id/nav_home"
+                    android:title="Home"
+                    android:fontFamily="@font/aldrich"
+                    android:icon="@drawable/home_icon"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:fontFamily="@font/aldrich"
+                    android:icon="@drawable/logout_icon"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Communication"
+            android:fontFamily="@font/aldrich">
+            <menu>
+                <item
+                    android:id="@+id/nav_contact_us"
+                    android:title="Contact Admins"
+                    android:fontFamily="@font/aldrich"
+                    android:icon="@drawable/contact_us_icon"/>
+            </menu>
+        </item>
+    </group>
+</menu>

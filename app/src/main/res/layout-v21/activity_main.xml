@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_trans"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/main_logo"
+        android:transitionName="main_logo_trans"
+        app:srcCompat="@drawable/forum_logo" />
+
+    <ImageView
+        android:id="@+id/small_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/main_logo"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/small_logo"
+        app:srcCompat="@drawable/mechanic" />
+
+</RelativeLayout>

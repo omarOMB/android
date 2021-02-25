@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ensak Business Forum</string>
+    <string name="todo">TODO</string>
+    <string name="logo">TODO</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create account</string>
+    <string name="login">Login</string>
+    <string name="new_account">TODO</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="big_logo">TODO</string>
+    <string name="small_logo">small_logo</string>
+    <string name="main_logo">TODO</string>
+    <string name="medium_logo">TODO</string>
+    <string name="ensak_business_forum">Ensak Business Forum</string>
+    <string name="logo_1">TODO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="copany">copany</string>
+    <string name="company">company</string>
+
+</resources>

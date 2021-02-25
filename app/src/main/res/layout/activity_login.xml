@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_trans"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="270dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/logo"
+        android:translationY="50dp"
+        android:transitionName="main_logo_trans"
+        app:srcCompat="@drawable/forum_logo" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:fontFamily="@font/aldrich"
+        android:background="@drawable/edit_text_border"
+        android:drawableStart="@drawable/ic_action_user"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#000000"
+        android:textSize="16sp"
+        android:translationY="350dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_border"
+        android:drawableStart="@drawable/ic_action_pass"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:fontFamily="@font/aldrich"
+        android:ems="10"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#03A9F4"
+        android:textSize="16sp"
+        android:translationY="400dp" />
+
+    <Button
+        android:id="@+id/loginAccount"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:translationY="470dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/rounded_blue_button"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/login"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/createAccount"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:translationY="510dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_blue_button"
+        android:fontFamily="@font/aldrich"
+        android:text="create student account"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/createAccountcompany"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:translationY="550dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_blue_button"
+        android:fontFamily="@font/aldrich"
+        android:text="Create company account"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:translationY="600dp"
+        app:srcCompat="@drawable/ensak_logo"
+        android:contentDescription="ensak logo" />
+
+
+</RelativeLayout>
